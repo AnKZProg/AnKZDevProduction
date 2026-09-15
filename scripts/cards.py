@@ -288,6 +288,8 @@ def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--user", required=True)
+    p.add_argument("--title", default=None,
+                   help="display name shown on the stats card (defaults to --user)")
     p.add_argument("--out", type=Path, default=Path("assets"))
     p.add_argument("--projects", type=Path, default=Path("assets/projects.json"),
                    help="repos to render cards for, with description overrides")
@@ -321,9 +323,10 @@ def main(argv=None):
     else:
         print("  note: no usable token, skipping contribution tiles", file=sys.stderr)
 
+    display_name = args.title or args.user
     for theme in ("dark", "light"):
         dest = args.out / f"card-stats-{theme}.svg"
-        dest.write_text(render_stats(args.user, tiles, theme), encoding="utf-8")
+        dest.write_text(render_stats(display_name, tiles, theme), encoding="utf-8")
     print(f"wrote card-stats-*.svg  ({len(tiles)} tiles)")
 
     if not args.projects.exists():

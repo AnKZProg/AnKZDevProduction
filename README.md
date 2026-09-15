@@ -2,7 +2,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/AnKZProg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39FF14&center=true&vCenter=true&width=880&lines=AnKZProg+-+Full-Stack+Developer;Local-first+%26+Privacy-first+Tools;Next.js+%2F+TypeScript+%2F+Security" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39FF14&center=true&vCenter=true&width=880&lines=AnKZDevProduction+-+Full-Stack+Developer;Local-first+%26+Privacy-first+Tools;Next.js+%2F+TypeScript+%2F+Security" alt="typing banner">
 </a>
 
 <br>

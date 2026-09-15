@@ -45,6 +45,7 @@ jobs:
         run: |
           python scripts/cards.py \
             --user "${{ github.repository_owner }}" \
+            --title "AnKZDevProduction" \
             --projects assets/projects.json \
             --out assets
 
