@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
+  "axes": [
+    { "label": "Next.js / React",     "value": 82 },
+    { "label": "TypeScript",          "value": 80 },
+    { "label": "Node.js",             "value": 75 },
+    { "label": "Databases / Prisma",  "value": 70 },
+    { "label": "Security / OAuth",    "value": 68 },
+    { "label": "Local-first Apps",    "value": 78 },
+    { "label": "UI / Tailwind",       "value": 72 }
+  ]
+}

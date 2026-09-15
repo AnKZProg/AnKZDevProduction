@@ -1,0 +1,9 @@
+{
+  "_comment": "Featured repos, in README order. Stars/forks/language come live from the API on every run; the description here overrides the repo's GitHub description.",
+  "projects": [
+    {
+      "repo": "MailGuard",
+      "description": "Local-only mail-triage dashboard for Gmail and Outlook: classifies spam/phishing, quarantines before deletion, audits mailbox security, and organizes mail into brand folders. No third-party email processing, ever."
+    }
+  ]
+}
